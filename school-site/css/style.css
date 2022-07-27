@@ -78,41 +78,108 @@ header, footer {
 
 
 /* Imported Typfaces */
+@font-face{
+    font-family:"Josefin Slab";
+    src: url(fonts/josefinslab-regular.ttf);
+    font-weight:normal;
+    font-style:normal;
+}
 
+@font-face{
+    font-family:"Montserrat";
+    src:url(fonts/montserrat-regular.ttf);
+    font-weight:normal;
+    font-style:normal;
+ }
 
 
 
 
 /* Typography Styles */
+html {
+    font-family:"Montserrat";
+}
 
+h1 {
 
+}
 
+h2 {
 
+}
+
+h2 + p {
+    
+}
+
+p {
+
+}
+
+li {
+
+}
+
+figcaption {
+
+}
 
 
 /* Link Styling */
+a {
 
+}
 
+a:link,
+a:visited {
+    
+}
 
+a:focus,
+a:hover {
 
+}
 
 
 /* List Styling */
 
+ul {
 
+}
 
+ol {
 
+}
+
+.long-list a:hover {
+
+}
 
 
 /* Navigation Menu */
+ nav {
 
+ }
 
+ nav a {
 
+ }
+
+nav a:focus,
+nav a:hover {
+
+}
+
+nav a:active {
+
+}
 
 
 
 /* Footer Styles */
+footer {
 
+}
 
 
 
