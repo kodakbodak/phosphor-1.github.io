@@ -80,16 +80,12 @@ header, footer {
 /* Imported Typfaces */
 @font-face{
     font-family:"Josefin Slab";
-    src: url(fonts/josefinslab-regular.ttf);
-    font-weight:normal;
-    font-style:normal;
+    src: url(school-site/fonts/josefinslab-regular.ttf);
 }
 
 @font-face{
     font-family:"Montserrat";
-    src:url(fonts/montserrat-regular.ttf);
-    font-weight:normal;
-    font-style:normal;
+    src: url(school-site/fonts/montserrat-regular.ttf);
  }
 
 
@@ -98,6 +94,7 @@ header, footer {
 /* Typography Styles */
 html {
     font-family:"Montserrat";
+    font-size:16px;
 }
 
 h1 {
