@@ -78,12 +78,12 @@ header, footer {
 
 
 /* Imported Typfaces */
-@font-face{
+@font-face {
     font-family:"Josefin Slab";
     src: url(school-site/fonts/josefinslab-regular.ttf);
 }
 
-@font-face{
+@font-face {
     font-family:"Montserrat";
     src: url(school-site/fonts/montserrat-regular.ttf);
  }
@@ -93,89 +93,126 @@ header, footer {
 
 /* Typography Styles */
 html {
-    font-family:"Montserrat";
+    font-family: Montserrat, sans-serif;
     font-size:16px;
 }
 
 h1 {
-
+    font-family: Josefin Slab, serif;
+    letter-spacing: .125rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align:center;
 }
 
 h2 {
-
+    font-family: Josefin Slab, serif;
+    letter-spacing: .125rem;
+    font-size: 1.5rem;
 }
 
 h2 + p {
-    
+    font-size: .75rem;
+    letter-spacing: .0313rem;
+    word-spacing: .125rem;
+    text-indent: 1.25rem;
+
 }
 
 p {
+    font-size: .75rem;
+    letter-spacing: .0313rem;
+    word-spacing: .125rem;
 
 }
 
 li {
-
+    font-size: .75rem;
+    letter-spacing: .0313rem;
+    word-spacing: .125rem;
 }
 
 figcaption {
-
+    font-size: .75rem;
+    margin-bottom: 2rem;
 }
 
 
 /* Link Styling */
 a {
-
+    outline:none;
 }
 
 a:link,
 a:visited {
-    
+    color:#33658a;
 }
 
 a:focus,
 a:hover {
-
+    text-decoration:none;
+    outline:none;
 }
 
 
 /* List Styling */
 
 ul {
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type:square;
 }
 
 ol {
-
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left:0;
+    margin-right:0;
+    list-style-type:lower-alpha;
 }
 
 .long-list a:hover {
-
+    text-transform:uppercase;
 }
 
 
 /* Navigation Menu */
- nav {
+nav {
+    padding-left:0;
+    margin-top: .125rem;
+}
 
- }
-
- nav a {
-
- }
+nav a {
+    text-decoration:none;
+    display:inline-block;
+    width:100%;
+    line-height:3;
+    text-align:center;
+    font-size:1.125rem;
+    margin-bottom:1.25rem;
+    border:.0625rem;
+    border-style:solid;
+    border-color:#33658a;
+}
 
 nav a:focus,
 nav a:hover {
-
+    color:#FFF;
+    background-color:#33658a;
 }
 
 nav a:active {
-
+    color:#FFF;
+    background-color:#000;
 }
 
 
 
 /* Footer Styles */
 footer {
-
+    text-align:center;
 }
 
 
