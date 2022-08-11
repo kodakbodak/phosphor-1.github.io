@@ -48,72 +48,112 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
-/* General setup */
+@font-face {
+    font-family: Robo;
+    src: url(../fonts/sans-serif/roboto-regular.ttf); 
+    font-weight: normal;
+    font-style: normal;
+}
 
-* {
-    box-sizing: border-box;
+@font-face {
+    font-family: rozhaone;
+    src: url(../fonts/serif/rozhaone-regular.ttf); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:jose ;
+    src: url(../fonts/serif/josefinslab-regular.ttf); 
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
-    font-size:16px;
+    font-family: Robo, Arial,  sans-serif;
 }
 
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
-}
-
-/* Layout */
-
-main {
-    overflow:auto;
-    min-width:45rem;
+h1 {
+    letter-spacing: 0.1rem;
+    font-family: Robo, Arial, sans-serif;
+    font-size: 2rem;
+    margin: 2rem;
+    text-align: center;
+    transform: rotate(0.04rad);  
+    text-shadow: 1px 1px #d1cbcb;
     
+  
 }
 
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
+h1 span{
+    font-family: rozhaone;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-orientation: sideways-right;
+    border-radius: 0.3rem;
+    text-shadow: none;
+    font-size: 2.5rem;
 }
 
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
+.highlight{
+    background-image: linear-gradient(#022929,#557eee);   
 }
 
-figure img {
-    width:100%;
-    max-width:25rem;
+
+h2{
+    font-size: 1rem;
+    margin-left:2.5rem;
 }
 
-figcaption {
-    margin:.375rem 0;
+h3{
+    font-size: 1rem;
+    margin-left:2.5rem;
 }
 
-.long-list {
-    margin-top:0;
+/* P */
+
+p {
+    font-size: 1rem;
 }
+
+
+/* Nav */
 
 nav {
-    float: left;
-    width:11.25rem;
+    margin-bottom: 2rem;
+    border-top: 0.1rem solid rgb(61, 57, 57); 
+    border-bottom: 0.1rem solid rgb(61, 57, 57); 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    list-style-type: none;
 }
 
-footer {
-    clear: both;
-    margin-top:1.5rem;
+nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: normal; 
+    padding: 4rem 
 }
 
-section, aside, nav, footer {
-  padding: .5rem;
+.article-image, img {
+
+   float: left;
+   margin-right:10px;
+   margin-bottom:5px;
+   padding: 2px;
 }
 
-/* header and footer */
-
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+.subsection{
+    float: right;
+    width: 20%;
 }
+
+.grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+  }
